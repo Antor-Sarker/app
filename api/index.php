@@ -1,8 +1,8 @@
 <?php
 
 header("Content-Type: application/json");
-$data = json_encode(["status"=>"ok","name"=>"database"]);
-echo $data;
+$data = ["status"=>"ok","name"=>"database"];
+echo json_encode($data);  
 
 
 
